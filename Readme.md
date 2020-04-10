@@ -7,7 +7,7 @@ This **[Notebook](Multi-Class-Sing.ipynb)** aims at introducing ImageDataGenerat
 
 Change the 'ImageDataGenerator' and see the impact on the performance of the model
 
-'''
+'''python
 train_datagen = ImageDataGenerator(
       rescale = 1./255.,
       rotation_range=5,
