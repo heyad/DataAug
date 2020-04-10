@@ -83,7 +83,7 @@ plt.show()
 ```
 
 
-![png](output_5_0.png)
+![png](figures/output_5_0.png)
 
 
 
@@ -102,7 +102,7 @@ plt.show()
 ```
 
 
-![png](output_6_0.png)
+![png](figures/output_6_0.png)
 
 
 * Class distribution 
@@ -123,7 +123,7 @@ sns.despine(left=True)
 ```
 
 
-![png](output_8_0.png)
+![png](figures/output_8_0.png)
 
 
 
@@ -139,7 +139,7 @@ plt.show()
 ```
 
 
-![png](output_9_0.png)
+![png](figures/output_9_0.png)
 
 
 * Expand data dimension
@@ -469,7 +469,7 @@ g
 
 
 
-![png](output_24_1.png)
+![png](figures/output_24_1.png)
 
 
 #### Show results (analyse)
@@ -586,7 +586,7 @@ sns.countplot(x=x.Pred,color='darkslateblue')
 
 
 
-![png](output_29_1.png)
+![png](figures/output_29_1.png)
 
 
 * Notice that the instances belonging to class 3 are the least correctly classified isntnaces in our model. Worth having a look at the shape of these images (See code above to visualise some instances)
@@ -610,7 +610,7 @@ xx.shape
 
 
 
-![png](output_31_1.png)
+![png](figures/output_31_1.png)
 
 
 * `Accuracy` on the validatoin set
